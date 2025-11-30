@@ -127,3 +127,10 @@ If module installation fails (e.g., due to missing admin rights, blocked PSGalle
         - alice@contoso.com
         - bob@contoso.com
         ...
+
+    You'll then be asked to confirm:
+    ```text
+    Do you want to apply this policy to ALL of the users listed above? (Y/N)
+
+    - Enter **Y** to proceed.
+    - Enter **N** to cancel with no changes made.
