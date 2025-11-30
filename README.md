@@ -203,6 +203,3 @@ Because the script uses standard `Grant-CsTeamsFeedbackPolicy` cmdlets, it is fu
 
 This script is provided as-is.
 Always test in a lab or with a small pilot scope before running it against large or production-sensitive groups.
-```makefile
-::contentReference[oaicite:0]{index=0}
-```
