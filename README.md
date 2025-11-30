@@ -143,22 +143,22 @@ If module installation fails (e.g., due to missing admin rights, blocked PSGalle
 The script lets you choose from the four built-in Teams feedback policies:
 
 1. `Global`
-- Uses the tenant-wide default Teams feedback policy.
+- Uses the tenant-wide **default** Teams feedback policy.
 - Whatever your organization’s global policy is set to, users will follow that.
 - Choosing Global is effectively “resetting” the user to whatever the default is, instead of a custom/tagged policy.
 
 2. `Tag:Enabled`
-- Feedback features are enabled.
+- Feedback features are **enabled**.
 - Users will continue to see feedback prompts and surveys after calls/meetings.
 - Best if you want to ensure users can always send feedback and see surveys.
 
 3. `Tag:Disabled`
-- Feedback features are fully disabled for affected users.
+- Feedback features are **fully disabled** for affected users.
 - This typically means:
     - No post-meeting / call-quality surveys
     - No feedback prompts
     - Feedback UI options may be removed/hidden for those users
-- Use this if you want to stop Teams feedback surveys for a specific user or group.
+- Use this if you want to **stop Teams feedback surveys for a specific user or group**.
 
 4. `Tag:UserChoice`
 - Users get to **decide for themselves** in the Teams client whether to participate in feedback/surveys.
