@@ -186,3 +186,23 @@ The script uses PowerShell’s transcript functionality:
     - Per-user grant attempts and any errors
     - Final summary
 You can open the log in any text editor for auditing or troubleshooting.
+
+---
+
+## Safety and rollback
+
+If you want to undo changes later:
+- Re-run the script and:
+    - Reassign `Global` to the same scope (single user or group), or
+    - Assign a different policy (e.g., switch from `Tag:Disabled` to `Tag:UserChoice`).
+Because the script uses standard `Grant-CsTeamsFeedbackPolicy` cmdlets, it is fully compatible with manual admin operations and other automation.
+
+---
+
+## Disclaimer
+
+This script is provided as-is.
+Always test in a lab or with a small pilot scope before running it against large or production-sensitive groups.
+```makefile
+::contentReference[oaicite:0]{index=0}
+```
