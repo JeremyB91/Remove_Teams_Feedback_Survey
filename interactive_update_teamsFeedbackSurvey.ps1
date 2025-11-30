@@ -53,7 +53,7 @@ function Write-Err {
 
 #region Module Handling
 
-function Ensure-Module {
+function EnsureModule {
     param(
         [Parameter(Mandatory=$true)][string]$ModuleName
     )
@@ -90,8 +90,8 @@ function Ensure-Module {
     }
 }
 
-Ensure-Module -ModuleName "MicrosoftTeams"
-Ensure-Module -ModuleName "AzureAD"
+EnsureModule -ModuleName "MicrosoftTeams"
+EnsureModule -ModuleName "AzureAD"
 
 #endregion Module Handling
 
