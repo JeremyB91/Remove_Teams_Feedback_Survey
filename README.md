@@ -178,13 +178,13 @@ If module installation fails (e.g., due to missing admin rights, blocked PSGalle
 
     When you choose the **Check current Teams feedback policy** operation, the script:
 
-    1. Resolves the target users (UPN or group members).
-    2. Calls `Get-CsOnlineUser` for each user.
-    3. Builds a small table showing:
+    - Resolves the target users (UPN or group members).
+    - Calls `Get-CsOnlineUser` for each user.
+    -  Builds a small table showing:
       - `DisplayName`
       - `UserPrincipalName`
       - `TeamsFeedbackPolicy`
-    4. Outputs this table to the console
+    -  Outputs this table to the console
 
     Example Output:
     
