@@ -181,9 +181,9 @@ If module installation fails (e.g., due to missing admin rights, blocked PSGalle
     - Resolves the target users (UPN or group members).
     - Calls `Get-CsOnlineUser` for each user.
     -  Builds a small table showing:
-      1. `DisplayName`
-      2. `UserPrincipalName`
-      3. `TeamsFeedbackPolicy`
+        1. `DisplayName`
+        2. `UserPrincipalName`
+        3. `TeamsFeedbackPolicy`
     -  Outputs this table to the console
 
     Example Output:
